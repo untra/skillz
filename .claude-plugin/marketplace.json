@@ -1,0 +1,14 @@
+{
+  "name": "skillz",
+  "owner": { "name": "untra" },
+  "metadata": {
+    "description": "untra's personal cross-tool skills, grouped into category plugins"
+  },
+  "plugins": [
+    {
+      "name": "dev",
+      "source": "./plugins/dev",
+      "description": "General software development skills"
+    }
+  ]
+}
