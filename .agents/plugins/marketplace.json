@@ -1,0 +1,15 @@
+{
+  "name": "skillz",
+  "plugins": [
+    {
+      "name": "dev",
+      "source": { "source": "local", "path": "./plugins/dev" },
+      "policy": { "installation": "AVAILABLE" }
+    },
+    {
+      "name": "frontend",
+      "source": { "source": "local", "path": "./plugins/frontend" },
+      "policy": { "installation": "AVAILABLE" }
+    }
+  ]
+}

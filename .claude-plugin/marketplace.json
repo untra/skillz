@@ -9,6 +9,11 @@
       "name": "dev",
       "source": "./plugins/dev",
       "description": "General software development skills"
+    },
+    {
+      "name": "frontend",
+      "source": "./plugins/frontend",
+      "description": "Frontend review skills"
     }
   ]
 }

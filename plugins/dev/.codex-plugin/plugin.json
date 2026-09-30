@@ -1,0 +1,7 @@
+{
+  "name": "dev",
+  "version": "0.1.0",
+  "description": "General software development skills",
+  "author": { "name": "untra" },
+  "skills": "./skills/"
+}

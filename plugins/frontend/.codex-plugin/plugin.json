@@ -1,0 +1,7 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "description": "Frontend review skills",
+  "author": { "name": "untra" },
+  "skills": "./skills/"
+}

@@ -22,7 +22,8 @@ Report the output to the user, calling out anything relevant to their question (
 
 Skills in this repo follow this shape:
 
-- The frontmatter `description` is the only always-loaded text. One line, third person, "Use when…" triggers only — never a summary of the workflow.
+- The frontmatter `description` is the only always-loaded text. One line, third person, "Use when…" triggers only — never a summary of the workflow. `name` and `description` are the shared contract; other frontmatter is ignored by agents that do not know it.
 - Keep this body small (hard ceiling 500 lines); it loads only on invocation.
+- Name the action (run the OS script, spawn a sub-agent, read a reference file). Do not name a Claude, Grok, or Codex tool.
 - Heavy reference material goes in a `references/` subdirectory, read on demand.
 - Executable helpers go in `scripts/` as adjacent `.sh`/`.ps1` pairs with the same basename and identical output shape, selected by OS as above.
