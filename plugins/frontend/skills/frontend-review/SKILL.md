@@ -55,7 +55,8 @@ Flag form or selection state that a background refetch would reset.
 Ensure Pagination on all listed tables, FAIL if identified API implementation cannot safely paginate when required.
 - **FE6 (a11y)**:
 Flag interactive elements that are keyboard-unreachable, `aria-label`s that replace visible label text, `aria-*` props that the underlying primitive overwrites, and visually-hidden elements still in the tab order.
-- **FE7 (react-query)**:
+- **FE7 (react-query / naiveasync)**:
+react-query and naiveasync are similar libraries for managing state between api <> ui data model composition.
 Flag direct `API.*`/`fetch` calls in components, string-literal query keys (must import the constant from `api/queries/`), `isLoading || isFetching` patterns, missing invalidation on mutation paths (including partial failure), and `mutateAsync` in `try/catch` with an empty catch.
 - **FE8 (effects)**:
 For every added or modified `useEffect`, apply the decision tree in `references/FRONTEND_PATTERNS.md`.
