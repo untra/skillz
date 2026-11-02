@@ -13,7 +13,7 @@
     {
       "name": "frontend",
       "source": "./plugins/frontend",
-      "description": "Frontend review skills"
+      "description": "Frontend review and accessibility skills"
     }
   ]
 }
